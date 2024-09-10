@@ -1,0 +1,1 @@
+UPDATE "abonnement"  SET "buy_date" = DATE("buy_date",'+1 day')

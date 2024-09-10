@@ -1,0 +1,42 @@
+APP_NAME: "Caisse BMC"
+APP_VERSION: "2.1"
+
+DOSSIER_COMPTABILITE: "/Users/jlb5pbf/Dropbox/BMCRegistry/accountancy"
+DATABASE: "/Users/jlb5pbf/Dropbox/BMCRegistry/prod.db"
+
+PREMANENTS: [
+    "q",
+    "Jeremy",
+    "Kevin",
+    "Michael",
+    "Arnaud",
+    "Mateo",
+    "Fiona",
+    "Corentin",
+    "Louis",
+    "Nicolas",
+    "Guillaume",
+    "Zara",
+    "Marie",
+]
+
+PRIX_ENTREES: {
+    "entrée normale": 9.0,
+    "entrée réduit": 8.0,
+    "entrée 3M BMC": 0.0,
+    "entrée C10S BMC": 0.0,
+    "achat 3M normale": 95.0,
+    "achat 3M réduit": 80.0,
+    "achat 10S normale": 80.0,
+    "achat 10S réduit": 70.0,
+    "achat abo matériel": 15.0,
+}
+
+PRIX_LOCATIONS: {
+    "location baudrier": 2.0,
+    "location gri-gri": 2.0,
+    "location chaussons": 5.0,
+    "location kit complet": 6.0,
+}
+
+REDUCTION_PERMANENTS: 0.85

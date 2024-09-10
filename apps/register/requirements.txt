@@ -1,0 +1,5 @@
+python-dateutil
+PyQt5
+setuptools
+py2app
+PyYAML

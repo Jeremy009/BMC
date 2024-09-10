@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QWidget" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>302</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="top_grid">
+     <item row="3" column="1" colspan="2">
+      <layout class="QGridLayout" name="cash_grid">
+       <item row="1" column="7" alignment="Qt::AlignVCenter">
+        <widget class="QSpinBox" name="eur02_field">
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6" alignment="Qt::AlignTop">
+        <widget class="QLabel" name="eur01_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>€0.10 x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3" alignment="Qt::AlignTop">
+        <widget class="QLabel" name="eur10_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>€10 x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" alignment="Qt::AlignTop">
+        <widget class="QLabel" name="eur20_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>€20 x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4" alignment="Qt::AlignVCenter">
+        <widget class="QSpinBox" name="eur5_field">
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <spacer name="spacer_1">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="0" alignment="Qt::AlignTop">
+        <widget class="QLabel" name="eur100_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>€100 x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="6" alignment="Qt::AlignTop">
+        <widget class="QLabel" name="eur05_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>€0.50 x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <spacer name="spacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="1" alignment="Qt::AlignVCenter">
+        <widget class="QSpinBox" name="eur200_field">
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4" alignment="Qt::AlignVCenter">
+        <widget class="QSpinBox" name="eur10_field">
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1" alignment="Qt::AlignVCenter">
+        <widget class="QSpinBox" name="eur20_field">
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4" alignment="Qt::AlignVCenter">
+        <widget class="QSpinBox" name="eur1_field">
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" alignment="Qt::AlignTop">
+        <widget class="QLabel" name="eur50_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>€50 x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3" alignment="Qt::AlignTop">
+        <widget class="QLabel" name="eur2_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>€2 x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1" alignment="Qt::AlignVCenter">
+        <widget class="QSpinBox" name="eur100_field">
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3" alignment="Qt::AlignTop">
+        <widget class="QLabel" name="eur1_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>€1 x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="7" alignment="Qt::AlignVCenter">
+        <widget class="QSpinBox" name="eur05_field">
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3" alignment="Qt::AlignTop">
+        <widget class="QLabel" name="eur5_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>€5 x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4" alignment="Qt::AlignVCenter">
+        <widget class="QSpinBox" name="eur2_field">
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" alignment="Qt::AlignTop">
+        <widget class="QLabel" name="eur200_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>€200 x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="7" alignment="Qt::AlignVCenter">
+        <widget class="QSpinBox" name="eur01_field">
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1" alignment="Qt::AlignVCenter">
+        <widget class="QSpinBox" name="eur50_field">
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="7" alignment="Qt::AlignVCenter">
+        <widget class="QSpinBox" name="eur005_field">
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::NoButtons</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="6" alignment="Qt::AlignTop">
+        <widget class="QLabel" name="eur005_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>€0.05 x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="6" alignment="Qt::AlignTop">
+        <widget class="QLabel" name="eur02_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>€0.20 x</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="3" column="0" alignment="Qt::AlignTop">
+      <widget class="QLabel" name="cash_label">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>26</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>En caisse:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="2">
+      <widget class="QLineEdit" name="supervisor_field">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="3" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="title_label">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>Login</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="supervisor_label">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>26</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Nom:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="validate_button">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>200</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Valider</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="date_label">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>26</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Date:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1" colspan="2">
+      <widget class="QDateEdit" name="date_field">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::NoButtons</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>supervisor_field</tabstop>
+  <tabstop>date_field</tabstop>
+  <tabstop>eur200_field</tabstop>
+  <tabstop>eur100_field</tabstop>
+  <tabstop>eur50_field</tabstop>
+  <tabstop>eur20_field</tabstop>
+  <tabstop>eur10_field</tabstop>
+  <tabstop>eur5_field</tabstop>
+  <tabstop>eur2_field</tabstop>
+  <tabstop>eur1_field</tabstop>
+  <tabstop>eur05_field</tabstop>
+  <tabstop>eur02_field</tabstop>
+  <tabstop>eur01_field</tabstop>
+  <tabstop>eur005_field</tabstop>
+  <tabstop>validate_button</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
